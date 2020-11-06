@@ -24,10 +24,12 @@ function makeSound(key){
             t1.play();
             break;
 
+
         case 'r':
             var t2=new Audio("Drumsounds/a2.mp3");
             t2.play();
             break;
+
 
         case 'i':
             var t3=new Audio("Drumsounds/a3.mp3");
@@ -35,14 +37,17 @@ function makeSound(key){
             break;
 
         case 'n':
+
                 var t3=new Audio("Drumsounds/a4.mp3");
                 t3.play();
                 break;
+
 
         case 'd':
                     var t3=new Audio("Drumsounds/a5.mp3");
                     t3.play();
                     break;
+
 
         case 'a':
                         var t3=new Audio("Drumsounds/a6.mp3");
@@ -67,5 +72,7 @@ function buttonANnimation(currentKey){
         activeButton.classList.remove("pressed");
     },100)
 }
+
+
 
 
