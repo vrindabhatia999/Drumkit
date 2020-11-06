@@ -19,14 +19,19 @@ document.addEventListener('keypress', function(event){
 function makeSound(key){
 
     switch(key){
-        case 'w':
+        case 'v':
             var t1=new Audio("Drumsounds/a1.mp3");
             t1.play();
             break;
 
-        case 'a':
-            var t2=new Audio("Drumsounds/059_808-hiphop.aif")
+        case 'r':
+            var t2=new Audio("Drumsounds/a2.mp3");
             t2.play();
+            break;
+
+        case 'i':
+            var t3=new Audio("Drumsounds/a3.mp3");
+            t3.play();
             break;
 
 
