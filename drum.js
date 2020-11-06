@@ -1,5 +1,11 @@
 var drumButton=document.querySelectorAll(".drum");
+
+
+///event listeners
 for(var i=0; i<drumButton.length; i++){
+
+
+
     drumButton[i].addEventListener("click",function () {
         var buttonInnerHTML=this.innerHTML;
         makeSound(buttonInnerHTML);
@@ -16,6 +22,8 @@ document.addEventListener('keypress', function(event){
     buttonANnimation(event.key);
 });
 
+
+//functions
 function makeSound(key){
 
     switch(key){
@@ -63,6 +71,8 @@ function makeSound(key){
             
     }
 }
+
+
 
 function buttonANnimation(currentKey){
     var activeButton=document.querySelector("."+currentKey);
