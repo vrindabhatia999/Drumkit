@@ -1,3 +1,16 @@
+body{
+    background: radial-gradient(purple,white);
+    width: 100%;
+    background-attachment: fixed;
+}
 .set{
-    
+    margin-left: 19%;
+    margin-top: 10%;
+}
+.drum{
+ display: inline-block;
+ width: 150px;
+ height: 150px;
+ text-align: center;
+ background: radial-gradient(pink,white);
 }

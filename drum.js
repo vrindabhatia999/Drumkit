@@ -83,6 +83,13 @@ function buttonANnimation(currentKey){
     },100)
 }
 
+var c1=document.getElementById('c1');
+c1.style.backgroundColor='purple';
+c1.style.color='white';
+c1.style.fontSize='60px';
+c1.style.textShadow='5px 5px 5px black';
+c1.style.fontFamily='gothic';
+
 
 
 
