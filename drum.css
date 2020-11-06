@@ -4,7 +4,7 @@ body{
     background-attachment: fixed;
 }
 .set{
-    margin-left: 19%;
+    margin-left: 18%;
     margin-top: 10%;
 }
 .drum{
@@ -13,4 +13,5 @@ body{
  height: 150px;
  text-align: center;
  background: radial-gradient(pink,white);
+ font-size: 50px;
 }

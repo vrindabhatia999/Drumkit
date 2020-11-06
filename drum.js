@@ -93,4 +93,8 @@ c1.style.fontFamily='gothic';
 var footer=document.createElement('div');
 document.body.appendChild(footer);
 
-footer.innerHTML="<strong>Enjoy the drum play<strong>";
+footer.innerHTML="<strong>Enjoy the drum play....<strong>";
+
+footer.style.textAlign='center';
+footer.style.marginTop='5%'
+footer.style.fontSize='35px'
