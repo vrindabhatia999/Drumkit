@@ -90,6 +90,7 @@ c1.style.fontSize='60px';
 c1.style.textShadow='5px 5px 5px black';
 c1.style.fontFamily='gothic';
 
+var footer=document.createElement('div');
+document.body.appendChild(footer);
 
-
-
+footer.innerHTML="<strong>Enjoy the drum play<strong>";
