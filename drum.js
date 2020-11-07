@@ -101,3 +101,4 @@ footer.style.fontSize='35px'
 footer.style.transition='0.5s ease';
 footer.style.textShadow="0 0 7px #00FFFF, 0 2px 9px #00FFFF";
 footer.style.color='white';
+footer.style.fontFamily='gothic';
