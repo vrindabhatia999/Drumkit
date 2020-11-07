@@ -99,4 +99,5 @@ footer.style.textAlign='center';
 footer.style.marginTop='5%'
 footer.style.fontSize='35px'
 footer.style.transition='0.5s ease';
-footer.style.textShadow="0 0 3px #00FFFF, 0 0 5px #00FFFF";
+footer.style.textShadow="0 0 7px #00FFFF, 0 2px 9px #00FFFF";
+footer.style.color='white';
