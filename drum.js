@@ -108,4 +108,6 @@ function sub1(){
     var d1=document.getElementById('input1');
     var c1=document.getElementById('p1');
     c1.innerHTML="Hey!,How are you?"+" "+d1.value;
+
+    c1.style.fontFamily='gothic';
 }
