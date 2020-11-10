@@ -110,4 +110,5 @@ function sub1(){
     c1.innerHTML="Hey!,How are you?"+" "+"<strong>"+d1.value+"<strong>";
 
     c1.style.fontFamily='gothic';
+    c1.style.fontSize='25px';
 }
